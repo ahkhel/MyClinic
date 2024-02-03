@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MedicalHistoryController">
+   <top>
+      <VBox alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <Label id="titleLbl" fx:id="titleLbl" text="Medical History" />
+            <HBox spacing="5.0">
+               <children>
+                  <ToggleButton id="pregnancyTB" fx:id="pregnancyTB" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" />
+                  <ToggleButton id="heartTB" fx:id="heartTB" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" />
+                  <ToggleButton id="diabetesTB" fx:id="diabetesTB" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" />
+                  <ToggleButton id="epilepsyTB" fx:id="epilepsyTB" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" />
+                  <ToggleButton id="stomachTB" fx:id="stomachTB" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" />
+                  <ToggleButton id="kidneyTB" fx:id="kidneyTB" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" />
+                  <ToggleButton id="bloodTB" fx:id="bloodTB" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" />
+                  <ToggleButton id="otherTB" fx:id="otherTB" contentDisplay="CENTER" ellipsisString="" graphicTextGap="0.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" text="Other" textAlignment="CENTER" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox fx:id="illnessesPane" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </center>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</BorderPane>

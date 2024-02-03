@@ -1,0 +1,46 @@
+.toggle-button:selected{
+	-fx-background-color: #1E90FF; /* Selected button color */
+	-fx-border-color: #000000;
+	-fx-border-radius: 5px; /* Rounded corners */
+	
+    -fx-border-width: 1px;
+	
+}
+.toggle-button{
+	-fx-background-color: #DDDDDD; /* Default button color */
+	-fx-border-color: #DDDDDD; /* Border color when selected */
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+}
+#pregnancyTB{
+	-fx-background-image: url("/icons/organs/1-pregnant-30.png");
+	-fx-background-size: 32, 32;
+	
+}
+#heartTB{
+	-fx-background-image: url("/icons/organs/2-heart-30.png");
+	-fx-background-size: 32, 32;
+}
+#diabetesTB{
+	-fx-background-image: url("/icons/organs/3-diabetes-30.png");
+	-fx-background-size: 32, 32;
+}
+#epilepsyTB{
+	-fx-background-image: url("/icons/organs/4-brain-30.png");
+	-fx-background-size: 32, 32;
+}
+#stomachTB{
+	-fx-background-image: url("/icons/organs/5-stomach-30.png");
+	-fx-background-size: 32, 32;
+}
+#kidneyTB{
+	-fx-background-image: url("/icons/organs/6-kidney-30.png");
+	-fx-background-size: 32, 32;
+}
+#bloodTB{
+	-fx-background-image: url("/icons/organs/7-blood-30.png");
+	-fx-background-size: 32, 32;
+}
+#otherTB{
+-fx-padding: 0px 0px;
+}
